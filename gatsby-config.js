@@ -30,8 +30,9 @@ try {
 *
 */
 module.exports = {
+    pathPrefix: "/blog",
     siteMetadata: {
-        siteUrl: config.siteUrl,
+    siteUrl: config.siteUrl,
     title: "BlackcoinNL",
     author: "Daniel Clough",
     description: "BlackcoinNL - The most helpful Blackcoin Community"
