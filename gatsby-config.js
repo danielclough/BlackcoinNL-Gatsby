@@ -32,6 +32,9 @@ try {
 module.exports = {
     siteMetadata: {
         siteUrl: config.siteUrl,
+    title: "BlackcoinNL",
+    author: "Daniel Clough",
+    description: "BlackcoinNL - The most helpful Blackcoin Community"
     },
     plugins: [
         /**
@@ -183,5 +186,6 @@ module.exports = {
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-force-trailing-slashes`,
         `gatsby-plugin-offline`,
+        'gatsby-plugin-sass',
     ],
 }
