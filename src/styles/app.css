@@ -525,9 +525,10 @@ h6 {
 }
 
 .container {
-    max-width: 1120px;
+    max-width: 2160px;
     margin: 0 auto;
     padding: 0 4vw;
+    width:100%;
 }
 
 .content {
@@ -543,7 +544,7 @@ h6 {
 }
 
 .post-full-content {
-    max-width: 720px;
+    max-width: 2160px;
     margin: 0 auto;
     background: transparent;
 }
@@ -765,27 +766,31 @@ h6 {
 /* Index
 /* ---------------------------------------------------------- */
 
+
+
 .post-feed {
     display: grid;
     justify-content: space-between;
     grid-gap: 30px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 30%) );
 }
 
 @media (max-width: 980px) {
     .post-feed {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 45% 45%;
     }
 }
 @media (max-width: 680px) {
     .post-feed {
-        grid-template-columns: 1fr;
+        grid-template-columns: 100%;
     }
 }
 
 .post-card {
     color: inherit;
     text-decoration: none;
+    padding-bottom: 30%;
+    overflow: hidden;
 }
 
 .post-card:hover {
