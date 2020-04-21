@@ -1,10 +1,10 @@
 {
   "development": {
-    "apiUrl": "https://blackcoin.nl",
+    "apiUrl": "https://admin.blackcoin.nl",
     "contentApiKey": "8b37b1ccb662f168a4b376c7e6"
   },
   "production": {
-    "apiUrl": "https://blackcoin.nl",
+    "apiUrl": "https://admin.blackcoin.nl",
     "contentApiKey": "8b37b1ccb662f168a4b376c7e6"
   }
 }
