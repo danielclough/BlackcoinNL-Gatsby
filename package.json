@@ -1,13 +1,13 @@
 {
-  "name": "gatsby-starter-ghost",
-  "description": "A starter template to build lightning fast websites with Ghost and Gatsby",
+  "name": "BlackcoinNL",
+  "description": "BlackcoinNL is the most helpful Blackcoin Community",
   "version": "1.0.0",
   "license": "MIT",
-  "author": "Ghost Foundation",
-  "homepage": "https://docs.ghost.org/api/gatsby/",
+  "author": "DanielC.us",
+  "homepage": "https://blackcoin.nl",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tryghost/gatsby-starter-ghost.git"
+    "url": "git+https://github.com/danielclough/BlackcoinNL-Gatsby.git"
   },
   "resolutions": {
     "sharp": "^0.25.2"
@@ -16,11 +16,11 @@
     "node": ">= 8.9.0"
   },
   "bugs": {
-    "url": "https://github.com/tryghost/gatsby-starter-ghost/issues"
+    "url": "https://github.com/danielclough/BlackcoinNL-Gatsby/issues"
   },
   "keywords": [
-    "gatsby",
-    "ghost"
+    "cryptocurrency",
+    "blackcoin"
   ],
   "main": "n/a",
   "scripts": {
@@ -48,6 +48,7 @@
     "gatsby-plugin-catch-links": "2.2.3",
     "gatsby-plugin-feed": "2.4.3",
     "gatsby-plugin-force-trailing-slashes": "1.0.4",
+    "gatsby-plugin-google-analytics": "^2.2.5",
     "gatsby-plugin-manifest": "2.3.5",
     "gatsby-plugin-offline": "3.1.4",
     "gatsby-plugin-react-helmet": "3.2.4",
