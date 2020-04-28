@@ -60,7 +60,7 @@ const DefaultLayout = ({ data, children, bodyClass }) => {
                                     <Navigation data={site.navigation} navClass="site-nav-item" />
                                 </div>
                                 <div className="site-nav-right">
-                                    <Link className="site-nav-button" to="/">About</Link>
+                                    <Link className="site-nav-button" to="/">Home</Link>
                                 </div>
                             </nav>
                         </div>
