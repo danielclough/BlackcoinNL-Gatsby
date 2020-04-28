@@ -10,7 +10,9 @@
     "url": "git+https://github.com/danielclough/BlackcoinNL-Gatsby.git"
   },
   "resolutions": {
-    "sharp": "^0.25.2"
+    "sharp": "^0.25.2",
+    "minimist": "^1.2.3",
+    "kind-of": "^6.0.3"
   },
   "engines": {
     "node": ">= 8.9.0"
