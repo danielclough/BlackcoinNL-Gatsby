@@ -103,8 +103,12 @@ class IndexPage extends React.Component {
               onCloseArticle={this.handleCloseArticle}
               setWrapperRef={this.setWrapperRef}
             />
-            <div style={{"height":"13rem","width":"100%"}} ></div>
-            <div style={{"height":"560px","background-color":"#1D2330","overflow":"hidden","box-sizing":"border-box","border":"1px solid #282E3B","border-radius":"4px","-webkit-text-align":"right","text-align":"right","line-height":"14px","font-size":"12px","font-feature-settings":"normal","-webkit-text-size-adjust":"100%","text-size-adjust":"100%","box-shadow":"inset 0 -20px 0 0 #262B38","padding":"0px","margin":"0px","width":"100%"}}><div style={{"height":"540px","padding":"0px","margin":"0px","width":"100%"}}><iframe src="https://widget.coinlib.io/widget?type=chart&theme=dark&coin_id=1229&pref_coin_id=1506" scrolling="auto" marginWidth={0} marginHeight={0} border={0} style={{"border":"0","margin":"0","padding":"0","line-height":"14px"}} width="100%" height="560px" frameBorder={0} />  </div></div>
+            <div style={{"height":"24rem","width":"100%"}} ></div>
+            <div style={{"height":"560px","background-color":"#1D2330","overflow":"hidden","box-sizing":"border-box","border":"1px solid #282E3B","border-radius":"4px","-webkit-text-align":"right","text-align":"right","line-height":"14px","font-size":"12px","font-feature-settings":"normal","-webkit-text-size-adjust":"100%","text-size-adjust":"100%","box-shadow":"inset 0 -20px 0 0 #262B38","padding":"0px","margin":"0px","width":"100%"}}>
+              <div style={{"height":"540px","padding":"0px","margin":"0px","width":"100%"}}>
+                <iframe src="https://widget.coinlib.io/widget?type=chart&theme=dark&coin_id=1229&pref_coin_id=1506" scrolling="auto" marginWidth={0} marginHeight={0} border={0} style={{"border":"0","margin":"0","padding":"0","line-height":"14px"}} width="100%" height="560px" frameBorder={0} />  
+              </div>
+            </div>
             <div style={{"height":"5rem","width":"100%"}} ></div>
 
             <Footer timeout={this.state.timeout} />
