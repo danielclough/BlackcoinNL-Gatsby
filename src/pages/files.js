@@ -6,7 +6,7 @@ const FilesPage = () => (
   <Layout>
     <div title="BlackcoinNL Files">
       <p>
-      👋 Public files can be found at <b> https://blackcoin.nl/some-file </b>
+      👋 Public files can be found at <b> https://blackcoin.nl/files/some-file </b>
       </p>  
       <p>
        📚 If you need support, contact a BlackcoinNL admin on one of the officially supported 
