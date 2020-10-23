@@ -1,12 +1,12 @@
 import React from 'react'
 import Layout from '../components/layout'
-import Files from "../components/Files"
+import Static from "../components/Static"
 
-const FilesPage = () => (
+const StaticPage = () => (
   <Layout>
-    <div title="BlackcoinNL Files">
+    <div title="BlackcoinNL Static Files">
       <p>
-      👋 Public files can be found at <b> https://blackcoin.nl/files/some-file </b>
+      👋 Public files can be found at <b> https://blackcoin.nl/static/some-file </b>
       </p>  
       <p>
        📚 If you need support, contact a BlackcoinNL admin on one of the officially supported 
@@ -18,7 +18,7 @@ const FilesPage = () => (
       </p>
       <br/>
     </div>
-    <Files />
+    <Static />
   </Layout>
 )
-export default FilesPage
+export default StaticPage

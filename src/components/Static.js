@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 const Files = () => {
   const data = useStaticQuery(graphql`
     {
-      allFile(filter: { sourceInstanceName: { eq: "files" } }) {
+      allFile(filter: { sourceInstanceName: { eq: "static" } }) {
         edges {
           node {
             publicURL
