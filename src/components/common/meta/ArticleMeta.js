@@ -18,7 +18,7 @@ const ArticleMetaGhost = ({ data, settings, canonical }) => {
     const author = getAuthorProperties(ghostPost.primary_author)
     const publicTags = _.map(tagsHelper(ghostPost, { visibility: `public`, fn: tag => tag }), `name`)
     const primaryTag = publicTags[0] || ``
-    const shareImage = ghostPost.feature_image ? ghostPost.feature_image : _.get(settings, `cover_image`, null)
+    const shareImage = ghostPost.twitter_image ? ghostPost.twitter_image : _.get(settings, `cover_image`, null)
     const publisherLogo = (settings.logo || config.siteIcon) ? url.resolve(config.siteUrl, (settings.logo || config.siteIcon)) : null
 
     const jsonLd = {
@@ -138,6 +138,7 @@ ArticleMetaGhost.propTypes = {
         og_title: PropTypes.string,
         og_description: PropTypes.string,
         twitter_title: PropTypes.string,
+        twitter_image: PropTypes.string,
         twitter_description: PropTypes.string,
         excerpt: PropTypes.string.isRequired,
     }).isRequired,
