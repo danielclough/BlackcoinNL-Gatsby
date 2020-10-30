@@ -12,11 +12,11 @@ const WebsiteMeta = ({ data, settings, canonical, title, description, image, typ
     settings = settings.allGhostSettings.edges[0].node
 
     const publisherLogo = url.resolve(config.siteUrl, (settings.logo || config.siteIcon))
-    let shareImage = image || data.feature_image || _.get(settings, `cover_image`, null)
+    let shareImage = image || data.twitter_image || data.feature_image || _.get(settings, `cover_image`, null)
 
     shareImage = shareImage ? url.resolve(config.siteUrl, shareImage) : null
 
-    description = description || data.meta_description || data.description || config.siteDescriptionMeta || settings.description
+    description = data.meta_description || description || data.description || config.siteDescriptionMeta || settings.description
     title = `${title || data.meta_title || data.name || data.title} - ${settings.title}`
 
     const jsonLd = {
@@ -80,6 +80,7 @@ WebsiteMeta.propTypes = {
         description: PropTypes.string,
         bio: PropTypes.string,
         profile_image: PropTypes.string,
+        twitter_image: PropTypes.string,
     }).isRequired,
     settings: PropTypes.shape({
         logo: PropTypes.object,
