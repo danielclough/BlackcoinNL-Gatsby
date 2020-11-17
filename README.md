@@ -1,4 +1,4 @@
-# Gatsby Starter Ghost
+# Gatsby Starter Ghost An Amzing Project 
 
 A starter template to build lightning fast websites with [Ghost](https://ghost.org) & [Gatsby](https://gatsbyjs.org)
 
